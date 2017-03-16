@@ -1,6 +1,6 @@
 {
   "name": "npm_util_tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "src/server.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "author": "Lockett",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/klockett/npmUtilTool"
-},
+    "type": "git",
+    "url": "git+https://github.com/klockett/npmUtilTool"
+  },
   "license": "ISC",
   "devDependencies": {
     "eslint": "^3.17.1",
