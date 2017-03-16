@@ -5,8 +5,8 @@ A tool used for Debugging!
 npm install npm_util_tool
 
 # Code Example
-
-- var chalk = require('chalk');
+```javascript
+var chalk = require('chalk');
 
 exports.debug = (title, obj, status) => {
   var seperator = '\n==================================\n';
@@ -20,4 +20,4 @@ exports.debug = (title, obj, status) => {
   if (process.env.DEBUG) {
     console.log(error(output), obj, status);
   }
-};
+};´´´
