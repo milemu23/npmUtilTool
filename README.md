@@ -6,11 +6,9 @@ npm install npm_util_tool
 
 # Code Example
 ```javascript
-<<<<<<< HEAD
-- var chalk = require('chalk');
-=======
 var chalk = require('chalk');
->>>>>>> origin/master
+var chalk = require('chalk');
+
 
 exports.debug = (title, obj, status) => {
   var seperator = '\n==================================\n';
@@ -24,4 +22,5 @@ exports.debug = (title, obj, status) => {
   if (process.env.DEBUG) {
     console.log(error(output), obj, status);
   }
-};´´´
+};
+´´
